@@ -83,5 +83,10 @@ pipeline {
                 echo 'deployment success'
             }
         }
+		stage('prod deployment') {
+			steps {
+                echo 'prod deployment'
+            }
+        }
     }
 }
