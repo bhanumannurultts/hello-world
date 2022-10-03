@@ -78,15 +78,5 @@ pipeline {
                 echo 'live environment'
             }
         }
-		stage('live deployment') {
-			steps {
-                echo 'deployment success'
-            }
-        }
-		stage('prod deployment') {
-			steps {
-                echo 'prod deployment'
-            }
-        }
     }
 }
