@@ -78,7 +78,7 @@ pipeline {
                 echo 'live environment'
             }
         }
-		stage('deployment') {
+		stage('live deployment') {
 			steps {
                 echo 'deployment success'
             }
