@@ -11,7 +11,7 @@ pipeline {
             }
         }
         
-        stage('compile') {
+        stage('compile1') {
             steps {
                 sh 'mvn clean package'
 				echo 'deployment success'
