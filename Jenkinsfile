@@ -5,13 +5,13 @@ pipeline {
     }
 
     stages {
-        stage('Hello') {
+        stage('Hello1') {
             steps {
                 git 'https://github.com/bhanumannurultts/hello-world.git'
             }
         }
         
-        stage('compile') {
+        stage('compile1') {
             steps {
                 sh 'mvn clean package'
 				echo 'deployment success'
