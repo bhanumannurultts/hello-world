@@ -1,13 +1,9 @@
 pipeline {
     agent any
-    tools {
-     maven 'MAVEN'
-    }
-
     stages {
         stage('Hello1') {
             steps {
-                git 'https://github.com/bhanumannurultts/hello-world.git'
+                git 'https://github.com/Vidhu-1997/hello-world.git'
             }
         }
         
